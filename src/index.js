@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 // import BhaiApp from './components';
 // import reportWebVitals from './reportWebVitals';
 // import './index.css';
