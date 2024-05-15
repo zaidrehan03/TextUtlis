@@ -11,7 +11,7 @@ function Welcome() {
   };
 
   const handleAlertOK = () => {
-    if (name == '') {
+    if (name === '') {
       setValidationError(true);
     } else {
       setShowAlert(false);
@@ -20,10 +20,10 @@ function Welcome() {
     }
   };
 
-  const handleProceed = () => {
-    // Handle the logic to proceed to the actual website here
-    console.log('Proceed to the actual website');
-  };
+  // const handleProceed = () => {
+  //   // Handle the logic to proceed to the actual website here
+  //   console.log('Proceed to the actual website');
+  // };
 
 
   return (

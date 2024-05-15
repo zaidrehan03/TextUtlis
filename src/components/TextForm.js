@@ -73,7 +73,7 @@ export default function TextForm(props) {
                     <h2 style={{ color: props.mode==='dark'?'lightblue':'#042743'}}>YOUR TEXT SUMMARY</h2>
                     <b>
                         <p>{text.trim().length} Characters</p>
-                        <p>{text.replace(/\n/g, " ").split(' ').filter(value => value != "").length} Words</p>
+                        <p>{text.replace(/\n/g, " ").split(' ').filter(value => value !== "").length} Words</p>
                         <p>{0.008 * text.split(" ").length} Minutes for reading</p>
                     </b>
                     <br />
